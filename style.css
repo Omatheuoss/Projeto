@@ -78,12 +78,11 @@ main{
     justify-content: center; 
 }
 .promocao img{
-    margin-right: 65px;
-    width: 250px;
-    height: 300px;
+    margin-right: 75px;
+    width: 230px;
+    height: 310px;
     border-radius: 7px;
-    background: #e0e0e0;
-    box-shadow: 15px 15px 30px #bebebe,
+    box-shadow: 15px 15px 30px #64625d,
                -15px -15px 30px #ffffff;
     margin-top: 30px;
     cursor: pointer;
