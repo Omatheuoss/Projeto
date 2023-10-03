@@ -103,18 +103,14 @@ main{
     justify-content: center;
     align-items: center;
     margin-top: 100px;
-    background-color: #1f1f20;
+    background-color: #e5e2d9;
     padding: 40px;
 }
-.texto {
-   
-}
-
 .texto p {
     font-size: 30px;
     padding: 20px;
     line-height: 1.5;
-    color: rgb(168, 158, 7);
+    color: #1f1f20;
     text-align: center;
 }
 .coment {
@@ -127,5 +123,45 @@ main{
     padding: 50px;
     width: 600px;
     height: auto;
-    border-radius: 20px;
+    
+}
+.redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f1f20;
+    padding: 100px;
+}
+.sociais img {
+    width: 150px;
+    margin-right: 20px;
+}
+.sociais img:hover{
+    transform: scale(1.3);
+    transition: 0.3s;
+}
+.horario {
+    font-size: 20px;
+    text-align: center; 
+    color: white; 
+}
+
+.horario p {
+    margin: 5px 0;
+}
+.direitos-autorais{
+    color: white;
+}
+
+#carouselExampleIndicators {
+    width: 100%; /* Largura total do contêiner do carrossel */
+    max-width: 100%; /* Largura máxima igual à largura da tela */
+    height: auto; /* A altura se ajustará automaticamente */
+}
+
+/* Defina o tamanho das imagens dentro do carrossel */
+.carousel-inner img {
+    width: 100%; /* As imagens ocuparão toda a largura do carrossel */
+    height: auto; /* A altura se ajustará automaticamente para manter a proporção */
+    object-fit: cover; /* Redimensiona a imagem para preencher todo o espaço */
 }
