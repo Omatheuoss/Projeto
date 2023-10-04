@@ -11,7 +11,12 @@
     
 }
 body{
-    
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
 }
 
 header{
@@ -82,34 +87,27 @@ main{
     display: flex;
     justify-content: center;
     background-color: #e5e2d9;
-    border-radius: 10px;
-}
-
-.card{
-    padding: 90px;
-    margin: 40px;
-    width: 300px;
-    margin: 10px;
+    padding: 70px;
 }
 
 .promocao{ 
-    background-color: #1f1f20;
+    background-color: #3d3c3c;
     display: flex;
     justify-content: center; 
-    padding: 90px;
+    padding: 40px;
 }
 .promocao img{
     margin: 100px;
     width: 300px;
     height: auto;
     border-radius: 10px;
-    box-shadow:10px 10px 25px #e5e2d9;
+    box-shadow:10px 10px 25px #1b1a18;
     margin-top: 50px;
     cursor: pointer;
 
 }
 .promocao img:hover{
-    transform: scale(1.3);
+    transform: scale(1.1);
     transition: 0.3s;
     color: rgb(24, 32, 32);
 }
@@ -117,9 +115,8 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
     background-color: #e5e2d9;
-    padding: 40px;
+    padding: 20px;
 }
 .texto p {
     font-size: 30px;
@@ -135,7 +132,7 @@ main{
 }
 .coment img {
     margin: 20px;
-    padding: 50px;
+    padding: 20px;
     width: 600px;
     height: auto;
     
@@ -144,19 +141,19 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #1f1f20;
+    background-color: #3d3c3c;
     padding: 100px;
 }
 .sociais img {
-    width: 150px;
+    width: 70px;
     margin-right: 20px;
 }
 .sociais img:hover{
-    transform: scale(1.3);
+    transform: scale(1.1);
     transition: 0.3s;
 }
 .horario {
-    font-size: 20px;
+    font-size: 16px;
     text-align: center; 
     color: white; 
 }
@@ -167,19 +164,6 @@ main{
 
 .direitos-autorais{
     color: white;
-}
-
-#carouselExampleIndicators {
-    width: 100%; /* Largura total do contêiner do carrossel */
-    max-width: 100%; /* Largura máxima igual à largura da tela */
-    height: auto; /* A altura se ajustará automaticamente */
-}
-
-/* Defina o tamanho das imagens dentro do carrossel */
-.carousel-inner img {
-    width: 100%; /* As imagens ocuparão toda a largura do carrossel */
-    height: auto; /* A altura se ajustará automaticamente para manter a proporção */
-    object-fit: cover; /* Redimensiona a imagem para preencher todo o espaço */
 }
 
 .cadastro-button {
@@ -195,7 +179,7 @@ main{
     border: none; 
     border-radius: 5px; 
     text-decoration: none; 
-    font-size: 32px; 
+    font-size: 23px; 
     cursor: pointer; 
 }
 
