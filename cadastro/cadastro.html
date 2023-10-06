@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <h1>Cadastro de Consulta Médica</h1>
+    <form id="cadastroForm">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required><br>
+
+        <label for="endereco">Endereço:</label>
+        <input type="text" id="endereco" name="endereco" required><br>
+
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone" required><br>
+
+        <label for="dataNascimento">Data de Nascimento:</label>
+        <input type="date" id="dataNascimento" name="dataNascimento" required><br>
+
+        <label for="dataConsulta">Data da Consulta:</label>
+        <input type="date" id="dataConsulta" name="dataConsulta" required><br>
+
+        <label for="horario">Horário da Consulta:</label>
+        <input type="time" id="horario" name="horario" required><br>
+
+        <label for="medico">Médico:</label>
+        <select id="medico" name="medico" required>
+            <option value="medico1">Médico 1</option>
+            <option value="medico2">Médico 2</option>
+            <option value="medico3">Médico 3</option>
+            <!-- Adicione mais opções de médicos conforme necessário -->
+        </select><br>
+
+        <label for="motivoConsulta">Motivo da Consulta:</label>
+        <textarea id="motivoConsulta" name="motivoConsulta" rows="4"></textarea><br>
+
+        <input type="submit" value="Cadastrar Consulta">
+    </form>
+</body>
+</html>
