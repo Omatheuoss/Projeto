@@ -7,7 +7,9 @@
     <title>Cadastro</title>
 </head>
 <body>
-    <h1>Cadastro de Consulta Médica</h1>
+    <h1>Agendamento</h1>
+    <h2>Preencha o formulário e em breve entraremos em contato.</h2>
+    <br>
     <form id="cadastroForm">
         <label for="nome">Nome:</label>
         <input type="text" id="nome" name="nome" required><br>
@@ -16,7 +18,7 @@
         <input type="text" id="endereco" name="endereco" required><br>
 
         <label for="telefone">Telefone:</label>
-        <input type="tel" id="telefone" name="telefone" required><br>
+        <input placeholder="Whatsapp" type="tel" id="telefone" name="telefone" required><br>
 
         <label for="dataNascimento">Data de Nascimento:</label>
         <input type="date" id="dataNascimento" name="dataNascimento" required><br>
@@ -27,18 +29,31 @@
         <label for="horario">Horário da Consulta:</label>
         <input type="time" id="horario" name="horario" required><br>
 
-        <label for="medico">Médico:</label>
-        <select id="medico" name="medico" required>
-            <option value="medico1">Médico 1</option>
-            <option value="medico2">Médico 2</option>
-            <option value="medico3">Médico 3</option>
-            <!-- Adicione mais opções de médicos conforme necessário -->
+        <label for="consulta">Tipo de atendimento:</label>
+        <select id="consulta" name="consulta" required>
+            <option value="consultaCapilar">Consulta Capilar</option>
+            <option value="limpezaPele">Limpeza de Pele</option>
+            <option value="corteCabelo">Corte de Cabelo</option>
+            
         </select><br>
+
+        <div id="profissional">
+            <label for="profissional">Selecione o profissional:</label>
+            <select id="profissional" name="profissional" required>
+                <option value="profissional1">Jaqueline: Massagem</option>
+                <option value="profissional2">Caio: Médico Capilar</option>
+                <option value="profissional3">Alan: Barbeiro</option>
+            </select><br>
+        </div>
+
+        
+
 
         <label for="motivoConsulta">Motivo da Consulta:</label>
         <textarea id="motivoConsulta" name="motivoConsulta" rows="4"></textarea><br>
 
         <input type="submit" value="Cadastrar Consulta">
     </form>
+    
 </body>
 </html>

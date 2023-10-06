@@ -65,7 +65,6 @@ a:hover{
 
 main{
     height: 100vh;
-    padding: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -87,10 +86,11 @@ main{
     left: 50%; 
     transform: translateX(-50%);
     text-align: center;
+    border-radius: 7px;
 }
 
 .drop-menu > li{
-    margin-right: 0;
+    margin-right: 0%;
 }
 .dropdown:hover .drop-menu{
     display: block;
@@ -124,6 +124,7 @@ main{
     display: flex;
     justify-content: center; 
     padding: 80px;
+    
 }
 .promocao img{
     margin: 100px;
@@ -195,7 +196,7 @@ main{
     padding: 20px;
     line-height: 1.5;
     color: #1f1f20;
-    text-align: center;
+    text-align: justify;
 }
 
 .coment {
@@ -289,7 +290,7 @@ main{
 }
 
 #icone{
-    margin-top: 10em;
+    margin-top: 13em;
 }
 .material-symbols-outlined:hover {
     transform: scale(1.1);
