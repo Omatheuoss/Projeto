@@ -8,6 +8,4 @@ window.addEventListener('scroll', function () {
         navbar.classList.remove('header-scroll'); // Remove a classe ao voltar ao topo
     }
 });
-$(document).ready(function () {
-    $('#carouselExampleIndicators').carousel();
-});
+

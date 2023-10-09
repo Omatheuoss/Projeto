@@ -34,7 +34,7 @@ header{
 }
 
 .header-scroll {
-    background-color: #3333336c; /* Cor de fundo desejada ao rolar */
+    background-color: #3333336c;
 }
 
 ul{
@@ -50,11 +50,11 @@ li {
 }
 
 a{
-    font-size: 20px;
+    font-size: 18px;
     transition: 0.3s;
     text-decoration: none;
     color: #fff;
-    font-size: 18px;
+   
 }
 
 a:hover{
@@ -164,7 +164,7 @@ main{
 }
 
 .card p {
-    font-size: 16px; 
+    font-size: 20px; 
     color: #333; 
 }
 
@@ -262,21 +262,6 @@ main{
     background-color: #1f1f20;
 }
 
-@media (max-width:1200px){
-    header > ul{
-        display: none;
-    }
-    .promocao img{
-        margin: 100px;
-        width: 300px;
-        height: auto;
-        border-radius: 10px;
-        box-shadow:10px 10px 25px #1b1a18;
-        margin-top: 50px;
-        cursor: pointer;
-    
-    }s
-}
 
 .material-symbols-outlined {
     border: 2px solid #1b1a18;
@@ -292,7 +277,45 @@ main{
 #icone{
     margin-top: 13em;
 }
+
 .material-symbols-outlined:hover {
     transform: scale(1.1);
     transition: 0.3s;
+}
+
+.mobile-menu-icon{
+    display: none;
+}
+
+.mobile-menu{
+    display: none;
+}
+
+@media screen and(max-width: 730px){
+
+    .nav-bar{
+        padding: 1.5rem 4rem;
+    }
+
+    .nav-item{
+        display: none;
+    }
+
+    .mobile-menu-icon{
+        display: block;
+    }
+
+    .mobile-menu ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .mobile-menu .nav-item{
+        display: block;
+        padding-top: 1.2rem;
+    }
+
+    
 }

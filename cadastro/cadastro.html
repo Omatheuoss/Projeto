@@ -11,29 +11,44 @@
     <h2>Preencha o formulário e em breve entraremos em contato.</h2>
     <br>
     <form id="cadastroForm">
-        <label for="nome">Nome:</label>
-        <input type="text" id="nome" name="nome" required><br>
 
-        <label for="endereco">Endereço:</label>
-        <input type="text" id="endereco" name="endereco" required><br>
+        <div class="nome">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required><br>
+        </div>
+        
+        <div class="adress"> 
+            <label for="endereco">Endereço:</label>
+            <input type="text" id="endereco" name="endereco" required><br>
+        </div>
 
-        <label for="telefone">Telefone:</label>
-        <input placeholder="Whatsapp" type="tel" id="telefone" name="telefone" required><br>
+        <div class="telefone">
+            <label for="telefone">Telefone:</label>
+            <input placeholder="Whatsapp" type="tel" id="telefone" name="telefone" required><br>
+        </div>
 
-        <label for="dataNascimento">Data de Nascimento:</label>
-        <input type="date" id="dataNascimento" name="dataNascimento" required><br>
+        <div class="nasc">
+            <label for="dataNascimento">Data de Nascimento:</label>
+            <input type="date" id="dataNascimento" name="dataNascimento" required><br>
+        </div>
 
-        <label for="dataConsulta">Data da Consulta:</label>
-        <input type="date" id="dataConsulta" name="dataConsulta" required><br>
+        <div class="consulta">
+            <label for="dataConsulta">Data da Consulta:</label>
+            <input type="date" id="dataConsulta" name="dataConsulta" required><br>
+        </div>
 
-        <label for="horario">Horário da Consulta:</label>
-        <input type="time" id="horario" name="horario" required><br>
+        <div class="horario">
+            <label for="horario">Horário da Consulta:</label>
+            <input type="time" id="horario" name="horario" required><br>
+        </div>
 
-        <label for="consulta">Tipo de atendimento:</label>
-        <select id="consulta" name="consulta" required>
-            <option value="consultaCapilar">Consulta Capilar</option>
-            <option value="limpezaPele">Limpeza de Pele</option>
-            <option value="corteCabelo">Corte de Cabelo</option>
+        <div class="tipo">
+            <label for="consulta">Tipo de atendimento:</label>
+            <select id="consulta" name="consulta" required>
+                <option value="consultaCapilar">Consulta Capilar</option>
+                <option value="limpezaPele">Limpeza de Pele</option>
+                <option value="corteCabelo">Corte de Cabelo</option>
+        </div>
             
         </select><br>
 
@@ -46,14 +61,14 @@
             </select><br>
         </div>
 
-        
-
-
         <label for="motivoConsulta">Motivo da Consulta:</label>
         <textarea id="motivoConsulta" name="motivoConsulta" rows="4"></textarea><br>
 
-        <input type="submit" value="Cadastrar Consulta">
+        <div id="enviar">
+            <input type="submit" value="Cadastrar Consulta">
+        </div>
     </form>
     
+    <script src="JS.js"></script>
 </body>
 </html>

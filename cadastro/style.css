@@ -78,3 +78,7 @@ input[type="submit"]:hover {
     background-color: #375a6b;
     display: flex;
 }
+
+@media screen {
+    
+}
