@@ -12,24 +12,22 @@ body {
     background-color: #20201e3a;
 }
 
-/* Estilo para o cabeçalho */
+
 h1{
     margin-top: 2em;
     text-align: center;
     color: #38505C;
-    font-size: 2em;
-
-    
+    font-size: 4em;
 }
 
 h2{ 
     margin-top: 2em;
     text-align: center;
     color: #505C5F;
-    font-size: 1em;
+    font-size: 2em;
 }
 
-/* Estilo para o formulário */
+
 form {
     max-width: 500px;
     margin: 0 auto;
@@ -59,7 +57,7 @@ textarea {
     margin-bottom: 20px;
     border: 1px solid #ccc;
     border-radius: 3px;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 
