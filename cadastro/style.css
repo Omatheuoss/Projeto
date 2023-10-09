@@ -9,10 +9,7 @@
     
 }
 body {
-
     background-color: #20201e3a;
-    margin: 0;
-    padding: 0;
 }
 
 /* Estilo para o cabeçalho */
@@ -20,6 +17,7 @@ h1{
     margin-top: 2em;
     text-align: center;
     color: #38505C;
+    font-size: 2em;
 
     
 }
@@ -28,6 +26,7 @@ h2{
     margin-top: 2em;
     text-align: center;
     color: #505C5F;
+    font-size: 1em;
 }
 
 /* Estilo para o formulário */
@@ -38,9 +37,10 @@ form {
     padding: 50px;
     border-radius: 7px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 25px;
 }
 
-/* Estilo para rótulos e campos de entrada */
+
 label {
     display: block;
     margin-bottom: 10px;
@@ -59,10 +59,10 @@ textarea {
     margin-bottom: 20px;
     border: 1px solid #ccc;
     border-radius: 3px;
-    font-size: 19px;
+    font-size: 20px;
 }
 
-/* Estilo para o botão de envio */
+
 input[type="submit"] {
     background-color: #38505C;
     color: #ffffff;
@@ -70,10 +70,19 @@ input[type="submit"] {
     border: none;
     border-radius: 3px;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 25px;
 }
 
-/* Estilo para o botão de envio quando o mouse está sobre ele */
+a{  
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    margin-top: 30px;
+
+}
+
+
 input[type="submit"]:hover {
     background-color: #375a6b;
     display: flex;
