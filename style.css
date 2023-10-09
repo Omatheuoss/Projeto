@@ -192,7 +192,7 @@ main{
     padding: 20px;
 }
 .texto p {
-    font-size: 30px;
+    font-size: 18px;
     padding: 20px;
     line-height: 1.5;
     color: #1f1f20;
@@ -207,7 +207,7 @@ main{
 .coment img {
     margin: 20px;
     padding: 20px;
-    width: 600px;
+    width: 500px;
     height: auto;
     
 }
