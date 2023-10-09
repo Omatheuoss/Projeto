@@ -9,3 +9,13 @@ window.addEventListener('scroll', function () {
     }
 });
 
+const botao = document.querySelector("#menu-item")
+
+const lista = document.querySelector("#menu")
+
+botao.addEventListener("click", (evento)=> {
+    evento.stopImmediatePropagation()
+
+    lista.classList.toggle("active")
+})
+
