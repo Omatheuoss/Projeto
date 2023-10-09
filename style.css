@@ -60,10 +60,10 @@ a{
 a:hover{
     font-size: 1.2em;
     color: #f1d787;
-    #f1d787
 }
 
 main{
+    width: 100vw;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -72,6 +72,13 @@ main{
     flex-direction: column;
 }
 
+
+.logo img{
+   width: 100%;
+   height: 100%; 
+   box-sizing: border-box;
+   padding: 60px;
+}
 .dropdown{
     position: relative;
 }
@@ -124,7 +131,8 @@ main{
     display: flex;
     justify-content: center; 
     padding: 80px;
-    
+    width: 100vw;
+    height: 100%;
 }
 .promocao img{
     margin: 100px;
@@ -287,35 +295,120 @@ main{
     display: none;
 }
 
-.mobile-menu{
+#menu-item{
     display: none;
 }
 
-@media screen and(max-width: 730px){
+@media(max-width: 730px){
 
-    .nav-bar{
-        padding: 1.5rem 4rem;
-    }
-
-    .nav-item{
+    #menu-item{
         display: none;
     }
 
-    .mobile-menu-icon{
-        display: block;
-    }
-
-    .mobile-menu ul{
-        display: flex;
+    #menu{
+        position: absolute;
+        top: 0;
+        font-size: .5em;
+        display: none;
         flex-direction: column;
-        text-align: center;
-        padding-bottom: 1rem;
+        height: 100vh;
+        width: 100vw;
+        background-color: #1f1f20;
+        justify-content: center;
+        align-items: center;
     }
 
-    .mobile-menu .nav-item{
-        display: block;
-        padding-top: 1.2rem;
+    header{
+        height: 50px;
     }
 
+    .promocao{
+        overflow-x: scroll;
+
+    }
+    .promocao img{
+        width: 100px;
+        margin: 10px;
+    }
+
+    .card-container{
+        width: 100vw;
+        height: 100vh;
+        overflow-x: scroll;
+        padding: 0;
+    }
     
+    .card{
+        width: 100vw;
+        height: 100px;
+        margin: 0;
+        padding: 0;
+        margin: 10px;
+        & > h1{
+            font-size: 8px;
+            height: 100%;
+            width: 100%;
+            color: #fff;
+        }
+        & p{
+            font-size: 12px;
+            color: #fff;
+        }
+        
+    }
+
+    .conheca{
+        width: 100vw;
+        height: 100px;
+        overflow-x: hidden;
+    }
+
+    .redes{
+        width: 100vw;
+        height: 100px;
+        padding: 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    footer{
+        width: 100vw;
+        height: 100px;
+    }
+
+    .horario{
+        font-size: 5px;
+    }
+    
+    .conheca{
+        width: 400px;
+        height: 100vh;
+    }
+    .coment img{
+        width: 100%;
+        height: 200px;
+        margin: 1px;
+        padding: 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .texto{
+        font-size: 12px;
+        margin: 0;
+        padding: 0;
+        align-items: center;
+        justify-content: center;
+        top: 0;
+        
+    }
+
+    .texto p{
+        font-size: 12px;
+        margin: 0;
+        width: ;
+
+    }
 }
