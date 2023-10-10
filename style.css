@@ -366,7 +366,7 @@ main{
     }
 
     .card a{
-        font-size: 14px;
+        font-size: 12px;
     }
     
     .card{
@@ -376,9 +376,9 @@ main{
         margin: 0;
         padding: 0;
         top: 15px;
-        margin: 10px;
+        margin: 8px;
         & > h1{
-            font-size: 14px;
+            font-size: 16px;
             height: 100%;
             width: 100%;
             color: white;
@@ -412,13 +412,13 @@ main{
     }
 
     .sociais img{
-        width: 50px;
+        width: 45px;
         align-items: center;
         justify-content: center;
     }
 
     .horario{
-        font-size: 10px;
+        font-size: 14px;
     }
     
     .conheca{
