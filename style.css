@@ -399,7 +399,7 @@ main{
 
     .redes{
         width: 100vw;
-        height: 100%;
+        height: 130%;
         padding: 0;
         flex-direction: column;
         align-items: center;
@@ -412,7 +412,7 @@ main{
     }
 
     .sociais img{
-        width: 45px;
+        width: 55px;
         align-items: center;
         justify-content: center;
     }
